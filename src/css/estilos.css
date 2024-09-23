@@ -12,10 +12,17 @@ body{
 
 .cabecalho .logo {
     width: 65px;
+    height: auto;
     
 }
 
 .cabecalho .menu{
+
+    display: flex;
+   align-items: center;
+   height: 100%;
+}
+.cabecalho .menu_social{
 
     display: flex;
    align-items: center;
